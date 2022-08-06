@@ -158,7 +158,8 @@
 // =========================//=========================//=========================
 // Practice Problem 3:
 // =========================//=========================//=========================
-
+// 1. You are given three numbers 13, 79, and 45. Write a program that will print the
+// largest number using if-else.
 
 // var num1 = 13;
 // var num2 = 09;
@@ -174,5 +175,23 @@
 //     console.log(num3, 'is a big one');
 // }
 
+
+// 2. You are given a triangle with the sides 9, 8, 9. Write a program to check whether a
+// triangle is Isosceles or not using if-else.
+// Isosceles => two sides are equal
+
+// var x = 2;
+// var y = 2;
+// var z = 1;
+
+// if (x == y && y == z) {
+//     console.log("Somantoral Trivuj");
+// }
+// else if (x == y || y == z || z == x) {
+//     console.log("Somo Dibahu Trivuj");
+// }
+// else {
+//     console.log("Osomo Bahu Trivuh");
+// }
 
 
