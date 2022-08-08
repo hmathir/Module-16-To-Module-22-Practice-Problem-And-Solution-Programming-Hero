@@ -21,6 +21,21 @@
 // ২. কোন একটা সংখ্যা প্রাইম সংখ্যা (prime number) কিনা। সেটা চেক করার একটা ফাংশন লিখো।
 
 
+// Correct WAY
+
+// function isPrime(num) {
+//     for (let i = 2; i * i <= num; i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return num > 1;
+// }
+// var result = isPrime(17);
+// console.log(result);
+
+
+
 //Find Prime Number Using Function,Parametar and loop.
 // function isPrime(input) {
 //     for (i = 1; i <= input; i++) {
@@ -60,15 +75,6 @@
 // isPrimetwo(9);
 
 
-// Correct WAY
 
-function isPrime(num) {
-    for (let i = 2; i * i <= num; i++) {
-        if (num % i === 0) {
-            return false;
-        }
-    }
-    return num > 1;
-}
-var result = isPrime(17);
-console.log(result);
+
+
