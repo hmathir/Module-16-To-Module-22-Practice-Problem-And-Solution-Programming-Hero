@@ -21,7 +21,7 @@
 //     var result = input.toLowerCase();
 //     return result;
 // }
-// var text = 'Hoga'
+// var text = 'Test'
 // var finalResult = upperCaseToLowerCaseConveter(text);
 // console.log(finalResult);
 

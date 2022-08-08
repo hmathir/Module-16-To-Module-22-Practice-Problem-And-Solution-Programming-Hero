@@ -27,10 +27,10 @@
 //         if (i === 1) {
 //             console.log(i, 'Not Prime');
 //         }
-//         else if (i === 2) {
+//         else if (i === 2 || i == 3) {
 //             console.log(i, 'Prime');
 //         }
-//         else if (i % 2 == 0) {
+//         else if (i % 2 == 0 || i % 3 === 0) {
 //             console.log(i, 'Not Prime');
 //         }
 //         else {
@@ -38,7 +38,7 @@
 //         }
 //     }
 // }
-// isPrime(20);
+// isPrime(25);
 
 
 
@@ -57,6 +57,18 @@
 //         console.log(i, 'Prime');
 //     }
 // }
-// isPrimetwo(3);
+// isPrimetwo(9);
 
 
+// Correct WAY
+
+function isPrime(num) {
+    for (let i = 2; i * i <= num; i++) {
+        if (num % i === 0) {
+            return false;
+        }
+    }
+    return num > 1;
+}
+var result = isPrime(17);
+console.log(result);
